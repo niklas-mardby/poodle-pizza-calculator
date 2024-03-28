@@ -1,13 +1,13 @@
 {
 	"pizza_menu": [
-		{ "name": "Chorizo Heaven", "cost": "4" },
-		{ "name": "Ham Special", "cost": "3" },
-		{ "name": "Veggie Delight", "cost": "2" }
+		{ "name": "Chorizo Heaven", "cost": 4 },
+		{ "name": "Ham Special", "cost": 3 },
+		{ "name": "Veggie Delight", "cost": 2 }
 	],
 	"extra-toppings": [
-		{ "name": "Mushrooms", "cost": "1" },
-		{ "name": "Red Pepper", "cost": "2" },
-		{ "name": "Onion", "cost": "1" }
+		{ "name": "Mushrooms", "cost": 1 },
+		{ "name": "Red Pepper", "cost": 2 },
+		{ "name": "Onion", "cost": 1 }
 	],
 	"sizes": [
 		{
