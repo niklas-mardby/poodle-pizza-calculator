@@ -8,4 +8,9 @@
 	border-radius: 15px;
 	padding: 0.5rem 1rem;
 	float: right;
+
+	&:active {
+		background-color: $mexican-pink;
+		transform: translateY(2px);
+	}
 }
