@@ -1,0 +1,23 @@
+@use "./styles/colors" as *;
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: $indigo;
+}
+
+.App {
+	color: $celeste;
+	max-width: 700px;
+
+	h1 {
+		text-align: center;
+	}
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	gap: 10px;
+}

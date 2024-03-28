@@ -1,0 +1,9 @@
+@use "../../styles/colors" as *;
+
+.CreatePizza {
+	background-color: $celeste;
+	color: black;
+	padding: 1.5rem;
+	border-radius: 10px;
+	flex-grow: 1;
+}
