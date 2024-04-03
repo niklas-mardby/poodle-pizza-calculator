@@ -8,7 +8,7 @@ export type Pizza = {
 
 export type Action =
 	| { type: "ADD_PIZZA"; payload: Pizza }
-	| { type: "REMOVE_PIZZA"; payload: string }
+	| { type: "REMOVE_PIZZA"; payload: Pizza }
 	| { type: "UPDATE_PIZZA"; payload: Pizza }
 	| { type: "CLEAR_ORDER" };
 

@@ -2,7 +2,7 @@ import { useContext } from "react";
 import Button from "../Button/Button";
 import "./PizzaOrder.scss";
 import { GlobalStateContext } from "../../state/GlobalStateContext";
-import { Action, GlobalState, Pizza } from "../../types/types";
+import { Action, Pizza } from "../../types/types";
 
 const PizzaOrder = () => {
 	const { state, dispatch } = useContext(GlobalStateContext);
@@ -60,6 +60,8 @@ type PizzaCardProp = {
 	pizza: Pizza;
 };
 const PizzaCard = ({ pizza }: PizzaCardProp) => {
+	const { dispatch } = useContext(GlobalStateContext);
+
 	return (
 		<div className="PizzaCard">
 			<h4>
@@ -77,6 +79,14 @@ const PizzaCard = ({ pizza }: PizzaCardProp) => {
 					}, "")}
 				</p>
 			)}
+			<Button
+				upperRightCorner={true}
+				handleClick={() =>
+					dispatch({ type: "REMOVE_PIZZA", payload: pizza })
+				}
+			>
+				&#x2715;
+			</Button>
 		</div>
 	);
 };

@@ -7,10 +7,30 @@
 	font-weight: 600;
 	border-radius: 15px;
 	padding: 0.5rem 1rem;
-	float: right;
 
 	&:active {
 		background-color: $mexican-pink;
 		transform: translateY(2px);
+	}
+
+	&.upperRightCorner {
+		position: absolute;
+		top: 11px;
+		right: 11px;
+		/* padding: 0.3rem 0.5rem; */
+		width: 0.4rem;
+		height: 1.5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: $indigo;
+		border: 2px solid $columbia-blue;
+		border-radius: 10px;
+		background-color: $celeste;
+
+		&:active {
+			background-color: $indigo;
+			color: $celeste;
+		}
 	}
 }

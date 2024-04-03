@@ -6,7 +6,12 @@ const reducer = (state: GlobalState, action: Action): GlobalState => {
 		case "ADD_PIZZA":
 			return { pizzaOrder: [...state.pizzaOrder, action.payload] };
 		case "REMOVE_PIZZA":
-			return state;
+			return {
+				...state,
+				pizzaOrder: state.pizzaOrder.filter(
+					(pizza) => pizza !== action.payload
+				),
+			};
 		case "UPDATE_PIZZA":
 			return state;
 		case "CLEAR_ORDER":
