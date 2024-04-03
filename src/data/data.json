@@ -4,7 +4,7 @@
 		{ "name": "Ham Special", "cost": 3 },
 		{ "name": "Veggie Delight", "cost": 2 }
 	],
-	"extra-toppings": [
+	"extra_toppings": [
 		{ "name": "Mushrooms", "cost": 1 },
 		{ "name": "Red Pepper", "cost": 2 },
 		{ "name": "Onion", "cost": 1 }

@@ -1,9 +1,9 @@
-type pizzaProperty = { name: string; cost: number };
+export type PizzaProperty = { name: string; cost: number };
 
 export type Pizza = {
-	pizzaMenuOption: pizzaProperty;
-	extraToppings: pizzaProperty[];
-	size: pizzaProperty;
+	pizzaMenuOption: PizzaProperty;
+	size: PizzaProperty;
+	extraToppings: PizzaProperty[];
 };
 
 export type Action =

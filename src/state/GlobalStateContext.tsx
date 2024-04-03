@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { Action, GlobalState, Pizza } from "../types/GlobalState";
+import { Action, GlobalState, Pizza } from "../types/types";
 
 /* const testPizza: Pizza = {
 	pizzaMenuOption: { name: "Test Pizza", cost: 5 },
