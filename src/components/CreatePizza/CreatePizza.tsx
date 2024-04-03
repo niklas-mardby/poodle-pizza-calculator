@@ -86,7 +86,6 @@ const CreatePizza = () => {
 							extraToppings: chosenToppings,
 						} as Pizza,
 					} as Action);
-					console.log("add?", chosenPizza, chosenSize, chosenToppings);
 				}}
 			>
 				Add Pizza

@@ -6,6 +6,7 @@
 	padding: 1.5rem;
 	border-radius: 10px;
 	flex-grow: 1;
+	width: 50%;
 }
 
 .PizzaCard {
@@ -13,4 +14,18 @@
 	border-radius: 10px;
 	border: 2px solid $columbia-blue;
 	margin: 1rem 0;
+
+	h4,
+	p {
+		margin: 0.5rem 0;
+	}
+}
+
+.TotalCostCard {
+	padding: 0.75rem 2rem;
+	border-radius: 10px;
+	background-color: $indigo;
+	color: $celeste;
+	margin: 1rem 0;
+	font-weight: 600;
 }
